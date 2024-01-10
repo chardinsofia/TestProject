@@ -390,9 +390,9 @@ slider-component.slider-component-full-width {
 
 
 .collection-list-wrapper {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .title-wrapper-with-link {
-  padding-right: 5em;
+  padding-right: 5rem;
 }
