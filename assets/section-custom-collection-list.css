@@ -52,6 +52,10 @@
     align-items: flex-start;
   }
 
+.card__media {
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 750px) {
   .collection-list {
     padding: 0 !important;
@@ -76,5 +80,8 @@
   .collection-list-subtitle {
     font-size: 20px;
     line-height: 25px;
+  }
+  .card__media {
+    border-radius: 20px;
   }
 }
