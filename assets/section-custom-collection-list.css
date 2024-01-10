@@ -1,0 +1,87 @@
+.card__content,
+.card--standard.card--media .card__inner .card__information .card__caption {
+  display: none;
+}
+
+.card--standard.card--media .card__inner .card__information,
+.card--standard.card--media .card__inner .card__information .card__heading,
+.card__inner .card__content {
+  display: block;
+}
+
+.card__inner .card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card--standard.card--media .card__inner .card__information .card__heading {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-weight: 700;
+  text-align: left;
+}
+
+.collection-list-title {
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.collection-list-subtitle {
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.title-wrapper-with-link {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+.collection-list__item, .card__media, .card__heading a:after {
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 750px) {
+  .collection-list {
+    padding: 0 !important;
+  }
+  .title-wrapper-with-link {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .card--standard.card--media .card__inner .card__information .card__heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+  .collection-list-title {
+    margin-bottom: 24px;
+    font-size: 39px;
+    line-height: 52px;
+  }
+  .collection-list-subtitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .collection-list__item, .card__media, .card__heading a:after {
+    border-radius: 20px;
+  }
+}
