@@ -45,12 +45,14 @@
             {{- 'sections.collection_list.view_all' | t -}}
           </a>
         {%- endif -%}
+        {%- unless section.settings.subtitle == blank -%}
+          <p id="SectionSubheading-{{ section.id }}"
+          class="collection-list-subtitle inline-richtext {{ section.settings.subheading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        >
+          {{ section.settings.subtitle }}
+          </p>
+        {%- endunless -%}
       </div>
-    <p id="SectionSubheading-{{ section.id }}"
-      class="collection-list-subtitle inline-richtext {{ section.settings.subheading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    >
-      {{ section.settings.subtitle }}
-    </p>
     {%- endunless -%}
 
     <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
