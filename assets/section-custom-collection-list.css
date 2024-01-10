@@ -46,6 +46,12 @@
   margin-top: 0px;
 }
 
+.title-wrapper-with-link {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
 @media screen and (max-width: 750px) {
   .collection-list {
     padding: 0 !important;
