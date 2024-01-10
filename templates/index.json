@@ -1,33 +1,5 @@
 {
   "sections": {
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "2cb6839a-70d4-4be1-a722-4bac6bf872af": {
       "type": "collection-list",
       "blocks": {
@@ -63,10 +35,57 @@
         "2dae1be9-fab3-41d3-853c-c1d251977d6e"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Shop By Bed Type",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9b3cf44b-2858-483e-8441-c18cae5a5b33": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "natural"
+          }
+        },
+        "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grey"
+          }
+        },
+        "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "off-white"
+          }
+        },
+        "b874fa24-96e3-4d3f-b587-894487149453": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue"
+          }
+        }
+      },
+      "block_order": [
+        "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-1",
+        "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-2",
+        "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-3",
+        "b874fa24-96e3-4d3f-b587-894487149453"
+      ],
+      "settings": {
+        "title": "Shop By Colour",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -77,7 +96,7 @@
     }
   },
   "order": [
-    "featured_collection",
-    "2cb6839a-70d4-4be1-a722-4bac6bf872af"
+    "2cb6839a-70d4-4be1-a722-4bac6bf872af",
+    "9b3cf44b-2858-483e-8441-c18cae5a5b33"
   ]
 }
