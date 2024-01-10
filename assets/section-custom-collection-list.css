@@ -29,10 +29,9 @@
 
 .collection-list-title {
   margin-bottom: 24px;
-  font-family: Playfair Display;
-  font-size: 39px;
+  font-size: 20px;
+  line-height: 27px;
   font-weight: 700;
-  line-height: 52px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -60,7 +59,10 @@
     line-height: 29px;
     letter-spacing: 0em;
   }
-
+  .collection-list-title {
+    font-size: 39px;
+    line-height: 52px;
+  }
   .collection-list-subtitle {
     font-size: 20px;
     line-height: 25px;
