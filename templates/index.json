@@ -143,11 +143,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6": {
+      "type": "custom-collection-list",
+      "blocks": {
+        "template--15408160538666__a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "natural"
+          }
+        },
+        "template--15408160538666__a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grey"
+          }
+        },
+        "template--15408160538666__a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "off-white"
+          }
+        },
+        "2c67770b-d75a-4c30-bba2-474509dba328": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue"
+          }
+        }
+      },
+      "block_order": [
+        "template--15408160538666__a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6-featured_collection-1",
+        "template--15408160538666__a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6-featured_collection-2",
+        "template--15408160538666__a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6-featured_collection-3",
+        "2c67770b-d75a-4c30-bba2-474509dba328"
+      ],
+      "settings": {
+        "title": "Shop By Colour",
+        "heading_size": "h1",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetuer Lorem ipsum dolor sit amet.",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "2cb6839a-70d4-4be1-a722-4bac6bf872af",
     "9b3cf44b-2858-483e-8441-c18cae5a5b33",
-    "c67c3fce-3120-4947-9107-ec555953c290"
+    "c67c3fce-3120-4947-9107-ec555953c290",
+    "a2b1902c-ce47-4ac1-b4cf-dd3966f9c9f6"
   ]
 }
