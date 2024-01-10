@@ -26,6 +26,7 @@ slider-component.slider-component-full-width {
   .no-js slider-component .slider {
     padding-bottom: 3rem;
   }
+}
 
 .slider__slide {
   --focus-outline-padding: 0.5rem;
