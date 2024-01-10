@@ -52,7 +52,7 @@
     align-items: flex-start;
   }
 
-.collection-list__item {
+.card__media {
   border-radius: 8px;
 }
 
@@ -81,7 +81,7 @@
     font-size: 20px;
     line-height: 25px;
   }
-  .collection-list__item {
+  .card__media {
     border-radius: 20px;
   }
 }
