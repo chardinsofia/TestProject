@@ -48,8 +48,9 @@
 }
 
 @media screen and (max-width: 750px) {
-.collection-list {
-  padding: 0 !important;
+  .collection-list {
+    padding: 0 !important;
+  }
 }
 
 @media screen and (min-width: 750px) {
