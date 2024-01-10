@@ -52,7 +52,7 @@
     align-items: flex-start;
   }
 
-.card__media {
+.card-wrapper {
   border-radius: 8px;
 }
 
@@ -81,7 +81,7 @@
     font-size: 20px;
     line-height: 25px;
   }
-  .card__media {
+  .card-wrapper {
     border-radius: 20px;
   }
 }
