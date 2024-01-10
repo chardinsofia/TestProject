@@ -166,6 +166,12 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
+      "type": "inline_richtext",
+      "id": "subtitle",
+      "default": "Collections subtitle",
+      "label": "t:sections.collection-list.settings.subtitle.label"
+    },
+    {
       "type": "select",
       "id": "image_ratio",
       "options": [
