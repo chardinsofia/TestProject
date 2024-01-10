@@ -28,7 +28,7 @@
 }
 
 .collection-list-title {
-  margin-bottom: 24px;
+  margin-bottom: 0px;
   font-size: 20px;
   line-height: 27px;
   font-weight: 700;
@@ -60,6 +60,7 @@
     letter-spacing: 0em;
   }
   .collection-list-title {
+    margin-bottom: 24px;
     font-size: 39px;
     line-height: 52px;
   }
