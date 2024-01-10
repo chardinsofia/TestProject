@@ -50,6 +50,9 @@
   .collection-list {
     padding: 0 !important;
   }
+  .title-wrapper-with-link {
+    margin-bottom: 12px;
+  }
 }
 
 @media screen and (min-width: 750px) {
