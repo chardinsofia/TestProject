@@ -53,7 +53,7 @@
   }
 
 .collection-list__item, .card__media, .card__heading a:after {
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 @media screen and (max-width: 750px) {
@@ -82,6 +82,6 @@
     line-height: 25px;
   }
   .collection-list__item, .card__media, .card__heading a:after {
-    border-radius: 20px;
+    border-radius: 20px !important;
   }
 }
