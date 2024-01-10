@@ -52,7 +52,7 @@
     align-items: flex-start;
   }
 
-.card-wrapper {
+.collection-list__item {
   border-radius: 8px;
 }
 
@@ -81,7 +81,7 @@
     font-size: 20px;
     line-height: 25px;
   }
-  .card-wrapper {
+  .collection-list__item {
     border-radius: 20px;
   }
 }
