@@ -180,7 +180,7 @@
       ],
       "settings": {
         "title": "Shop By Colour",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "subtitle": "Lorem ipsum dolor sit amet, consectetuer Lorem ipsum dolor sit amet.",
         "image_ratio": "adapt",
         "columns_desktop": 4,
