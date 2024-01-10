@@ -34,6 +34,7 @@
         "template--15408160538666__2cb6839a-70d4-4be1-a722-4bac6bf872af-featured_collection-3",
         "2dae1be9-fab3-41d3-853c-c1d251977d6e"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop By Bed Type",
         "heading_size": "h2",
@@ -81,6 +82,7 @@
         "template--15408160538666__9b3cf44b-2858-483e-8441-c18cae5a5b33-featured_collection-3",
         "b874fa24-96e3-4d3f-b587-894487149453"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop By Colour",
         "heading_size": "h2",
@@ -129,7 +131,7 @@
         "6c2f926f-b4ef-4c35-8fb0-bdbe56bc9940"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Shop By Bed Type",
         "heading_size": "h2",
         "subtitle": "Lorem ipsum dolor sit amet, consectetuer Lorem ipsum dolor sit amet.",
         "image_ratio": "adapt",
