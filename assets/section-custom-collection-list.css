@@ -8,3 +8,14 @@
 .card__inner .card__content {
   display: block;
 }
+
+.card__inner .card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card--standard.card--media .card__inner .card__information .card__heading {
+  color: #FFFFFF;
+}
+
