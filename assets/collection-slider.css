@@ -182,23 +182,23 @@ slider-component.page-width {
     padding-left: 1.5rem;
   }
 
-  .slider--desktop.grid--5-col-desktop .grid__item {
+  .grid--5-col-desktop .grid__item {
     width: calc(12.5% - var(--grid-mobile-horizontal-spacing) * 6);
   }
 
-  .slider--desktop.grid--4-col-desktop .grid__item {
+  .grid--4-col-desktop .grid__item {
     width: calc(25% - var(--grid-mobile-horizontal-spacing) * 5);
   }
 
-  .slider--desktop.grid--3-col-desktop .grid__item {
+  .grid--3-col-desktop .grid__item {
     width: calc(33.33% - var(--grid-mobile-horizontal-spacing) * 4);
   }
 
-  .slider--desktop.grid--2-col-desktop .grid__item {
+  .grid--2-col-desktop .grid__item {
     width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 
-  .slider--desktop.grid--1-col-desktop .grid__item {
+  .grid--1-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) - var(--grid-desktop-horizontal-spacing) * 9);
   }
 
