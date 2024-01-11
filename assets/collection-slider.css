@@ -177,7 +177,7 @@ slider-component.page-width {
     scroll-margin-left: 1.5rem;
   }
 
-  .page-width-desktop {
+  .page-width-desktop, .page-width {
     max-width: 100% !important;
   }
 
