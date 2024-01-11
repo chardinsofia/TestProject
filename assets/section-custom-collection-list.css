@@ -52,8 +52,12 @@
     align-items: flex-start;
   }
 
-.collection-list__item, .card__media, .card__heading a:after {
+.collection-list__item, .card__media {
   border-radius: 8px;
+}
+
+.card__media {
+  border-radius: 20px !important;
 }
 
 @media screen and (max-width: 750px) {
@@ -62,6 +66,9 @@
   }
   .title-wrapper-with-link {
     margin-bottom: 0px;
+  }
+  .card__media {
+    border-radius: 8px !important;
   }
 }
 
@@ -81,7 +88,10 @@
     font-size: 20px;
     line-height: 25px;
   }
-  .collection-list__item, .card__media, .card__heading a:after {
-    border-radius: 20px;
+  .card__media {
+    border-radius: 20px !important;
   }
 }
+
+
+
