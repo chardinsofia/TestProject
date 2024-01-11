@@ -17,7 +17,7 @@ slider-component.page-width {
 
 .page-width, .page-width-desktop {
     max-width: 100% !important;
-    padding: 0 70px;
+    padding: 60px 70px;
 }
 
 @media screen and (min-width: 749px) and (max-width: 990px) {
