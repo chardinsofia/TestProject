@@ -15,7 +15,7 @@ slider-component.page-width {
   padding: 0 1.5rem;
 }
 
-.page-width-desktop {
+.page-width {
     max-width: 100% !important;
     padding: 0 70px;
 }
