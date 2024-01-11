@@ -177,6 +177,10 @@ slider-component.page-width {
     scroll-margin-left: 1.5rem;
   }
 
+  .page-width-desktop {
+    max-width: 100% !important;
+  }
+
   /* Fix to show some space at the end of our sliders in all browsers */
   .slider-component-full-width .slider--desktop:after {
     padding-left: 1.5rem;
@@ -384,7 +388,6 @@ slider-component.page-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
-
 
 .collection-list-wrapper {
   padding-right: 0;
