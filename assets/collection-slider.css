@@ -14,11 +14,8 @@ slider-component.slider-component-full-width {
 slider-component.page-width {
   padding: 0 1.5rem;
 }
-
-media screen and (min-width: 990px) {
-  .page-width-desktop {
-      max-width: 100% !important;
-  }
+.page-width-desktop {
+    max-width: 100% !important;
 }
 @media screen and (min-width: 749px) and (max-width: 990px) {
   slider-component.page-width {
