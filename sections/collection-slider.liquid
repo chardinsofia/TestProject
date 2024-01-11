@@ -87,7 +87,7 @@
           </li>
         {%- endfor -%}
       </ul>
-      {%- if show_mobile_slider -%}
+
         <div class="slider-buttons no-js-hidden">
           <button
             type="button"
@@ -112,7 +112,6 @@
             {% render 'icon-caret' %}
           </button>
         </div>
-      {%- endif -%}
     </slider-component>
 
     {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
