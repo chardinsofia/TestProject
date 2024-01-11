@@ -30,6 +30,10 @@ slider-component.page-width {
   .no-js slider-component .slider {
     padding-bottom: 3rem;
   }
+  .page-width, .page-width-desktop {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
 }
 
 .slider__slide {
