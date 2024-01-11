@@ -83,6 +83,26 @@ slider-component.page-width {
 }
 
 
+  .grid--5-col-desktop .grid__item {
+    width: calc(12.5% - var(--grid-mobile-horizontal-spacing) - 5rem);
+  }
+
+  .grid--4-col-desktop .grid__item {
+    width: calc(25% - var(--grid-mobile-horizontal-spacing) - 4em);
+  }
+
+  .grid--3-col-desktop .grid__item {
+    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) - 3rem);
+  }
+
+  .grid--2-col-desktop .grid__item {
+    width: calc(50% - var(--grid-mobile-horizontal-spacing) - 2rem);
+  }
+
+  .grid--1-col-desktop .grid__item {
+    width: calc((100% - var(--desktop-margin-left-first-item)) - var(--grid-desktop-horizontal-spacing) * 9);
+  }
+
 
 .section-template--15408245211178__collection_slider_kUY8nk-padding {
   padding-right: 0;
