@@ -31,9 +31,8 @@ slider-component.page-width {
     padding-bottom: 3rem;
   }
   .page-width, .page-width-desktop {
-      max-width: 100% !important;
       padding-top: 30px;
-      padding-bottom: 0px;
+      padding-bottom: 0;
   }
 }
 
@@ -154,6 +153,7 @@ slider-component.page-width {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
     margin-bottom: 1rem;
     scroll-padding-left: var(--desktop-margin-left-first-item);
   }
