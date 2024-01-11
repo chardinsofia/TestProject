@@ -186,24 +186,24 @@ slider-component.page-width {
   .slider-component-full-width .slider--desktop:after {
     padding-left: 1.5rem;
   }
-@media screen and (min-width: 990px) {
-  .slider--desktop.grid--5-col-desktop .grid__item {
+
+  .grid--5-col-desktop .grid__item {
     width: calc(12.5% - var(--grid-mobile-horizontal-spacing) - 5rem);
   }
 
-  .slider--desktop.grid--4-col-desktop .grid__item {
+  .grid--4-col-desktop .grid__item {
     width: calc(25% - var(--grid-mobile-horizontal-spacing) - 4em);
   }
 
-  .slider--desktop.grid--3-col-desktop .grid__item {
-    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) - 3rem) !important;
+  .grid--3-col-desktop .grid__item {
+    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 
-  .slider--desktop.grid--2-col-desktop .grid__item {
+  .grid--2-col-desktop .grid__item {
     width: calc(50% - var(--grid-mobile-horizontal-spacing) - 2rem);
   }
 
-  .slider--desktop.grid--1-col-desktop .grid__item {
+  .grid--1-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) - var(--grid-desktop-horizontal-spacing) * 9);
   }
 
@@ -215,7 +215,7 @@ slider-component.page-width {
     --focus-outline-padding: 0rem;
   }
 }
-}
+
 @media (prefers-reduced-motion) {
   .slider {
     scroll-behavior: auto;
