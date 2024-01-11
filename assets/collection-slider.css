@@ -15,12 +15,7 @@ slider-component.page-width {
   padding: 0 1.5rem;
 }
 
-.page-width {
-    max-width: 100% !important;
-    padding: 0 70px;
-}
-
-.page-width-desktop {
+.page-width, .page-width-desktop {
     max-width: 100% !important;
     padding: 0 70px;
 }
@@ -397,7 +392,7 @@ slider-component.page-width {
 }
 
 
-.collection-list-wrapper {
+section-template--15408245211178__collection_slider_kUY8nk-padding {
   padding-right: 0;
 }
 
