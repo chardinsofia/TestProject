@@ -154,7 +154,6 @@ slider-component.page-width {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     margin-bottom: 1rem;
     scroll-padding-left: var(--desktop-margin-left-first-item);
   }
