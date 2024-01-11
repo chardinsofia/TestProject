@@ -196,7 +196,7 @@ slider-component.page-width {
   }
 
   .slider--desktop.grid--3-col-desktop .grid__item {
-    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) - 3rem) !important;
   }
 
   .slider--desktop.grid--2-col-desktop .grid__item {
