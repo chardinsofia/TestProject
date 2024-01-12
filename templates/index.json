@@ -74,13 +74,41 @@
           "settings": {
             "collection": "blue"
           }
+        },
+        "featured_collection_TQrLaj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_kbt6rV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_jCWFzM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_fd6bGH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_9GXBgg",
         "featured_collection_rx3Bfx",
         "featured_collection_kE99NF",
-        "featured_collection_LLH9Dw"
+        "featured_collection_LLH9Dw",
+        "featured_collection_TQrLaj",
+        "featured_collection_kbt6rV",
+        "featured_collection_jCWFzM",
+        "featured_collection_fd6bGH"
       ],
       "settings": {
         "title": "Shop By Colour",
